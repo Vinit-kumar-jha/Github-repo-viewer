@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #201f1f;
+    color: #eed6d6;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .search-container {
+    margin-top: 1rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  #repocontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .repository {
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  .repository h2 {
+    margin: 0;
+  }
+  
+  .repository p {
+    margin: 0.5rem 0;
+    color: #777;
+  }
+
+
+  #watchlist {
+    background-color: #272c32;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
