@@ -34,8 +34,10 @@ function displayrepo(repositories){
         const repoDiv = document.createElement("div");
         repoDiv.classList.add("repository");
     
-        const nameElement = document.createElement("h2");
+        const nameElement = document.createElement("a");
         nameElement.textContent = repository.name;
+        nameElement.href = repository.html_url;
+        nameElement.target = "_blank";
     
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = repository.description || "No description available";
